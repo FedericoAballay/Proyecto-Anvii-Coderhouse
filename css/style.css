@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header ul li{
+    list-style: none;
+    text-decoration: none;    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+header ul li a:hover{
+    color: darkgrey;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main__block{
+    background-color: #ff5f7c;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.main__block2{
+    background-color: #ff5f7c;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5rem;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.main__img{
+    width: 300px;
+}
+
+.galery__img{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contact__title{
+    font-size: 3rem;
+    text-align: center;
+    background-color: #ff5f7c;
+}
+
+.galery__title{
+    font-size: 3rem;
+    text-align: center;
+    background-color: #ff5f7c;
+}
+
+.header__logo{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.main__index{
+    margin: 20px;
+}
+body{
+    background-color: rgb(159, 43, 226);
+}
+
+.main__contact h2{
+    font-size: 40px;
+}
+
+.link__to{
+    color: black;
+    font-size: 25px;
+
+}
+
+.link__to:hover{
+    color: white;
+}
+
+.releases__title{
+    font-size: 3rem;
+    text-align: center;
+    background-color: #ff5f7c;
+}
+
+.musiccontainer img{
+    width: 400px;
+}
+
+.musiccontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ep__title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.dates__main{
+    font-size: 1.5rem;
+}
+
+
+table, th, td{
+    border: 1px solid black;
+}
