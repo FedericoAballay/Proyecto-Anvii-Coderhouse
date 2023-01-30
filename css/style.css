@@ -21,6 +21,7 @@ body {
 .logo { 
     font-size: 3rem;
     color: aliceblue;
+    font-family: 'Staatliches', cursive;
     
 }
 .logo:hover{
