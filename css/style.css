@@ -27,10 +27,30 @@ body {
 .logo:hover{
     transform: scale(1.2);
 }
-.nav_button {
+.nav_anchor {
     color: aliceblue;
 
 }
-.nav_button:hover { 
+.nav_anchor:hover { 
     transform: scale(1.3);
+
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+.subtitulo{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+
+.galery__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music__img{
+    width: 300pxs;
 }
