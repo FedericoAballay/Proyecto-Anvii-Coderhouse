@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #25466e;
+    position: fixed;
+    width: 100%;
+    
+    bottom: 0;
+
+    
+    &__icon{
+        color: white;
+        font-size: 20px;
+        &:hover{
+            color: #d8848b;
+        }
+    
+    }
+}

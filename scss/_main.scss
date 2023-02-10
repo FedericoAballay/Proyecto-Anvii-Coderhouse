@@ -1,0 +1,19 @@
+main{
+    padding-top: 70px;
+}
+.imgtexto{
+    padding-bottom: 20px;
+    &__info{
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    &__imagen{
+        width: 400px;
+    }    
+    &__contenedorimg{
+        text-align: center;
+    }
+}
+.music__img{
+    width: 200px;
+}
