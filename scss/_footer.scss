@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #25466e;
-    position: fixed;
+    
     width: 100%;
     
     bottom: 0;
@@ -16,4 +16,8 @@
         }
     
     }
+}
+
+.datesfooter{
+    position: fixed;
 }

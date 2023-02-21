@@ -13,6 +13,12 @@
 
 main {
   padding-top: 70px; }
+  main .table__contenedor {
+    display: flex;
+    justify-content: center; }
+    main .table__contenedor .table__main {
+      border: 5px solid #4c4cf0;
+      width: 70%; }
 
 .imgtexto {
   padding-bottom: 20px; }
@@ -28,14 +34,14 @@ main {
   width: 200px; }
 
 body {
-  background-image: url(../img/texture.jpg);
+  background-image: url(../img/fondo-azul.jpg);
+  background-size: cover;
   color: white; }
 
 .footer {
   display: flex;
   justify-content: space-evenly;
   background-color: #25466e;
-  position: fixed;
   width: 100%;
   bottom: 0; }
   .footer__icon {
@@ -43,3 +49,6 @@ body {
     font-size: 20px; }
     .footer__icon:hover {
       color: #d8848b; }
+
+.datesfooter {
+  position: fixed; }

@@ -1,5 +1,18 @@
 main{
     padding-top: 70px;
+
+   
+    .table__contenedor{
+        display: flex;
+        justify-content: center;
+        .table__main {
+            border: 5px solid rgb(76, 76, 240);
+            width: 70%;
+        }
+    }    
+    
+   
+    
 }
 .imgtexto{
     padding-bottom: 20px;
@@ -17,3 +30,5 @@ main{
 .music__img{
     width: 200px;
 }
+
+
