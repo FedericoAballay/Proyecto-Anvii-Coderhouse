@@ -1,0 +1,13 @@
+@mixin titulo{
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: center;
+    &:hover{
+        color: pink;
+        text-shadow: 0px 0px 20px pink;
+        
+    }
+}

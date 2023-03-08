@@ -13,6 +13,16 @@
 
 main {
   padding-top: 70px; }
+  main .titulo {
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: center; }
+    main .titulo:hover {
+      color: pink;
+      text-shadow: 0px 0px 20px pink; }
   main .table__contenedor {
     display: flex;
     justify-content: center; }
@@ -33,10 +43,32 @@ main {
 .music__img {
   width: 100px; }
 
-.form__body {
+.contacto__gilada {
   display: flex;
-  flex-direction: column;
-  width: 50%; }
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center; }
+  .contacto__gilada .email {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px; }
+  .contacto__gilada .formulario__contenedor {
+    width: 50%;
+    display: flex;
+    justify-content: center; }
+  .contacto__gilada .form__body {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: pink;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px black; }
+
+.music__img {
+  width: 300px; }
 
 body {
   background-image: url(../img/fondo-azul.jpg);

@@ -1,5 +1,10 @@
 main{
     padding-top: 70px;
+
+    .titulo{
+        @include titulo
+        
+    }
     
 
    
@@ -32,12 +37,44 @@ main{
     width: 100px;
 }
 
-
-.form__body{
+.contacto__gilada{
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
 
+    .email{
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .formulario__contenedor{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form__body{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background-color: pink;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 10px 10px black; 
+    }
+}
+
+// .ep__contenedor{
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+.music__img{
+    width: 300px;
     
 }
 
