@@ -31,7 +31,12 @@ main {
     text-align: center; }
 
 .music__img {
-  width: 200px; }
+  width: 100px; }
+
+.form__body {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
 
 body {
   background-image: url(../img/fondo-azul.jpg);

@@ -1,5 +1,6 @@
 main{
     padding-top: 70px;
+    
 
    
     .table__contenedor{
@@ -28,7 +29,15 @@ main{
     }
 }
 .music__img{
-    width: 200px;
+    width: 100px;
 }
 
+
+.form__body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    
+}
 
